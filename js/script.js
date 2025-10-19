@@ -1,7 +1,7 @@
 let currentUnit = "celsius"; //globaali lämpötila
 
 let savedTemp = null;
-let savedHourlyTemps = []; //Säilytetään viimeisin lämpötila
+let savedHourlyTemps = []; //Säilytetään viimeisin lämpötilaa
 
 document.getElementById("search-city").addEventListener("click", getWeather);
 document.getElementById("location").addEventListener("click", getWeatherByLocation);
